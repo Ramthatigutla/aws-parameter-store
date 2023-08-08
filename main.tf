@@ -34,8 +34,8 @@ variable "params" {
     { name = "roboshop.dev.user.mongo_url", value = "mongodb://mongodb-dev.trrdops.store:27017/users", type = "String" },
     #passwords will be never part of git repos
     { name = "roboshop.dev.payment.amqp_pass", value = "roboshop123", type = "SecureString" },
-    { name = "roboshop.dev.payment.amqp_user", value = "roboshop", type = "String" },
-    { name = "roboshop.dev.payment.amqp_pass", value = "roboshop123", type = "SecureString" },
+    { name = "roboshop.dev.rabbitmq.amqp_user", value = "roboshop", type = "String" },
+    { name = "roboshop.dev.rabbitmq.amqp_pass", value = "roboshop123", type = "SecureString" },
   ]
 }
 
